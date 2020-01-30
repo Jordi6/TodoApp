@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>Todo App</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+<script src="js/script.js"></script>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <header>
+        <h1 id="label">Todo app</h1>
+    </header>
+    <main>
+        <div id="form">
+            <input id="todo" type="text" name="todo">
+            <label>Enter Your To Do</label>
+            <button id="btn" type="button">Submit</button>
+        </div>
+        <div id="to-do-list">
+        </div>
+        <div id="template-task">
+            <input class="cbox" type="checkbox">
+            <p class="item-text"></p>
+            <i class="far fa-edit fa-lg edit-todo"></i><button class="del-btn" type="button">Delete</button>
+        </div>
+    </main>
+    <footer>
+    </footer> 
+</body>
+</html>
